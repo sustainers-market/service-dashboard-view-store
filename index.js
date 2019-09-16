@@ -1,6 +1,6 @@
 const lambda = require("@sustainers/lambda");
 
-module.exports = lambda().post(async (req, res) => {
+module.exports = lambda().get(async (req, res) => {
   res.send([
     {
       title: "Roof",
