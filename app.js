@@ -25,8 +25,8 @@ app.get(
       {
         title: "Roof",
         requestTitle: req.query.title,
-        people: ["Joao", "Tyler"],
-        sideButtons: [{ title: "Do this" }, { title: "Do that" }]
+        people: ["Joao"],
+        sideButtons: [{ title: "Do that" }, { title: "Do this" }]
       }
     ]);
   })
