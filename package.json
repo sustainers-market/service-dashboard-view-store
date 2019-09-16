@@ -2,12 +2,7 @@
   "name": "@sustainer-network/service-dashboard-view-store",
   "version": "0.0.0",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-async-handler": "^1.1.4",
-    "localenv": "^0.2.2",
-    "@sustainers/logger": "*",
-    "@sustainers/express-middleware": "*",
-    "@sustainers/error-middleware": "*"
+    "@sustainers/lambda": "*"
   },
   "main": "index.js",
   "scripts": {
