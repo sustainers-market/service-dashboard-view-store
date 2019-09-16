@@ -1,5 +1,5 @@
 {
-  "name": "@sustainer-network/create-service-command",
+  "name": "@sustainer-network/service-dashboard-view-store",
   "version": "0.0.0",
   "dependencies": {
     "express": "^4.17.1",
