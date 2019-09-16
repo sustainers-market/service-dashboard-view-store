@@ -1,6 +1,6 @@
 const lambda = require("@sustainers/lambda");
 
-module.exports = lambda(async (req, res) => {
+module.exports = lambda().post(async (req, res) => {
   res.send([
     {
       title: "Roof",
@@ -9,4 +9,4 @@ module.exports = lambda(async (req, res) => {
       sideButtons: [{ title: "Do that" }, { title: "Do this" }]
     }
   ]);
-}).post();
+});
